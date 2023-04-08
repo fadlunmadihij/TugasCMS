@@ -4,7 +4,7 @@
   @csrf
   @method('put')
   <div class="mb-3">
-    <label for="exampleInpuNamaKategori" class="form-label">Tambah Kategori</label>
+    <label for="exampleInpuNamaKategori" class="form-label">Edit Kategori</label>
     <input type="text" value="{{$data->nama_kategori}}" class="form-control @error('nama_kategori') is-invalid @enderror" name="nama_kategori">
     @error('nama_kategori')
     <div class="invalid-feedback">{{ $message }}</div>
